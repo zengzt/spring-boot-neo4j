@@ -1,0 +1,7 @@
+springboot 中使用neo4j文件说明
+1.新建neo4j（附录中neo4j的安装方式）,新添加数据"create (n:user{id:"qwer"})"
+2.修改配置文件
+3.启动程序，访问http://ip:1234/User/id 可以查询到数据
+4.访问neo4j有两种方式连接，客户端(http)，和驱动连接（bolt），此程序只有http的连接
+5.注意点：此程序当使用http的时候是可能会造成包冲突
+6.springboot-neo4j高版本的有些类已经去除了

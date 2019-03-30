@@ -1,0 +1,8 @@
+server:
+  port: 1234
+spring:
+  data:
+    neo4j:
+      uri: http://172.31.100.150:7474
+      username: neo4j
+      password: 1234Qwer
